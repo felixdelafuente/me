@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@400;500&display=swap");
+
+// TYPEFACES
+$poppins: "Poppins", sans-serif;
+$roboto: "Roboto", sans-serif;
+
+// COLORS
+$black: #2b2b2b;
+$gray: #909090;
+$lightGray: #f4f4f4;
+$white: #ffffff;
+
+// FONT SIZES
+$header: 64px;
+$mHeader: 56px;
+$subheader: 28px;
+$mSubHeader: 20px;
+$paragraph: 18px;
+$button: 14px;
+
+// SPACING
+$spacingLg: 9em; // 144px
+$spacingMd: 6em; // 96px
+$spacingSm: 3em; // 48px
+$spacingXs: 1em; // 16px
+
+// BORDER RADIUS
+$borderRadius: 2px;
+
+@mixin breakpoint($point) {
+  @if $point == md {
+    @media (min-width: 48em) {
+      @content;
+    }
+  }
+}
+
+// SHADOW
+$outerShadow: 0px 2px 12px rgba(0, 0, 0, 0.12);
+
+$smScreen: 300px;
+$mdScreen: 600px;
+$lgScreen: 900px;

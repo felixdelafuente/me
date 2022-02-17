@@ -1,0 +1,602 @@
+@import "./variables.scss";
+//
+//
+// General
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth
+}
+ul {
+  list-style-type: square;
+}
+//
+//
+// Title.jsx
+.headerText {
+  font-family: $poppins;
+  font-weight: 700;
+  font-size: $mHeader;
+  margin: 0;
+  line-height: 100%;
+  color: $black;
+  @media (min-width: $lgScreen) {
+    font-size: $header;
+  }
+}
+//
+//
+// Paragraph.jsx
+.bodyText {
+  font-family: $roboto;
+  font-size: $paragraph;
+  color: $black;
+}
+//
+//
+// PrimaryButton.jsx
+.primaryButton {
+  cursor: pointer;
+  background-color: $black;
+  color: $white;
+  font-family: roboto;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid $black;
+  transition: 0.5s ease all;
+
+  &:hover {
+    background-color: $white;
+    color: $black;
+  }
+
+  &.headerButton {
+    font-size: $paragraph;
+    padding: 0.75em 1em;
+  }
+
+  &.navigationButton {
+    font-size: $button;
+    padding: 10px 12px;
+  }
+}
+//
+//
+// SecondaryButton.jsx
+.secondaryButton {
+  cursor: pointer;
+  background-color: $white;
+  color: $black;
+  font-family: roboto;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid $black;
+  transition: 0.5s ease all;
+  font-size: $button;
+  padding: 10px 0;
+  width: 100%;
+  &:hover {
+    background-color: $black;
+    color: $white;
+  }
+}
+//
+//
+// NavBar.jsx
+.navBar {
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  background: $white;
+  transition: 0.5s ease all;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  .navContainer {
+    width: 100%; //
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: $black;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    box-shadow: $outerShadow;
+    padding: 0 $spacingXs;
+    @media (min-width: $mdScreen) {
+      padding: 0 $spacingSm;
+    }
+    @media (min-width: $lgScreen) {
+      padding: 0 9%;
+    }
+
+    .navLogo {
+      height: 2.5em;
+    }
+
+    .navContent {
+      top: 0;
+      left: 100%;
+      bottom: 0;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: rgba($white, 0.9);
+      backdrop-filter: blur(2px);
+      transform: translate(0);
+      transition: 0.5s ease all;
+
+      @include breakpoint(md) {
+        transform: none;
+        flex-direction: row;
+        background: transparent;
+        width: auto;
+        height: 100%;
+        position: static;
+      }
+
+      .navList {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        font-family: $roboto;
+        font-weight: 500;
+        font-size: $button;
+        color: $black;
+        @include breakpoint(md) {
+          flex-direction: row;
+          align-items: center;
+        }
+
+        .navListItem {
+          &:not(:last-child) {
+            margin-bottom: $spacingSm;
+            @include breakpoint(md) {
+              margin: 0 $spacingXs;
+            }
+          }
+          .navLink {
+            text-decoration: none;
+            color: inherit;
+            padding: 0.75rem 0;
+            transition: 0.5s ease all;
+
+            &:hover {
+              color: $gray;
+            }
+          }
+        }
+      }
+
+      .navButton {
+        @include breakpoint(md) {
+          margin-left: $spacingXs;
+        }
+      }
+
+      .isMenu {
+        transform: translate(100%);
+      }
+    }
+
+    .contentVisible {
+      left: 0;
+    }
+
+    .toggle {
+      cursor: pointer;
+      display: flex;
+      font-size: 1.5em;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.5s ease all;
+      position: relative;
+      color: $black;
+
+      &:hover {
+        color: $gray;
+      }
+
+      @include breakpoint(md) {
+        display: none;
+      }
+    }
+  }
+}
+//
+//
+// Header.jsx
+.header {
+  display: flex;
+  background-color: $lightGray;
+  height: 100%;
+  overflow-y: hidden;
+  transition: 0.5s ease all;
+  padding: 64px $spacingXs 0 $spacingXs;
+  @media (min-width: $mdScreen) {
+    padding: 64px 0 0 $spacingSm;
+  }
+  @media (min-width: $lgScreen) {
+    padding: 64px 0 0 9%;
+  }
+
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: $spacingXs 0 $spacingSm 0;
+
+    .subHeaderText {
+      font-family: $roboto;
+      font-weight: 500;
+      font-size: $mSubHeader;
+      color: $gray;
+      @media (min-width: $lgScreen) {
+        font-size: $subheader;
+      }
+    }
+    .header-socials {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    flex-wrap: nowrap;
+    margin-bottom: $spacingXs;
+
+    .socials-icon {
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+  }
+
+  .imageContainer {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 5%;
+    overflow-x: hidden;
+    min-width: 50%;
+    height: auto;
+    display: none;
+    @media (min-width: $mdScreen) {
+      display: flex;
+      width: 20em;
+    }
+    @media (min-width: $lgScreen) {
+      display: flex;
+      width: 35em;
+      height: 85vh;
+    }
+    .myImage {
+      // @media (min-width: $smScreen) {
+      //   display: flex;
+      //   max-width: 960px;
+      // }
+      @media (min-width: $mdScreen) {
+        height: 100%;
+      }
+    }
+  }
+}
+//
+//
+// About.jsx
+.about {
+  transition: 0.5s ease all;
+  padding: $spacingMd $spacingXs $spacingSm $spacingXs;
+  @media (min-width: $mdScreen) {
+    padding: $spacingMd $spacingSm $spacingSm $spacingSm;
+  }
+  @media (min-width: $lgScreen) {
+    padding: $spacingLg 9% 0 9%;
+  }
+
+  .about-content {
+    margin-top: 32px;
+  }
+}
+//
+//
+// Experience.jsx
+.experience {
+  padding: $spacingSm $spacingXs;
+  @media (min-width: $mdScreen) {
+    padding: $spacingSm;
+  }
+  @media (min-width: $lgScreen) {
+    padding: $spacingLg 9% 0 9%;
+  }
+
+  .tabs {
+    margin-top: 32px;
+    @media (min-width: $lgScreen) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .tab-list {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    font-family: $poppins;
+    font-size: $paragraph;
+    font-weight: 500;
+    color: $black;
+    padding-left: 0;
+    transition: 0.5s ease all;
+    margin: 0;
+    @media (min-width: $lgScreen) {
+      white-space: normal;
+      display: block;
+      width: 30%;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+  }
+
+  .tab-content {
+    @media (min-width: $lgScreen) {
+      padding-left: $spacingSm;
+      width: 70%;
+    }
+  }
+
+  .tab-list-item {
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+    padding: 0.75em 1em;
+    border-radius: 3px;
+    transition: 0.5s ease all;
+    @media (min-width: $lgScreen) {
+      display: flex;
+    }
+    &:not(.tab-list-active):hover {
+      border: 1px solid $black;
+      background-color: $white;
+    }
+  }
+
+  .tab-list-active {
+    color: $white;
+    background-color: $black;
+    border: $black;
+    border-radius: 3px;
+    transition: 0.5s ease all;
+  }
+
+  .tab-position {
+    font-family: $poppins;
+    font-size: $paragraph;
+    font-weight: 700;
+    color: $black;
+    line-height: 100%;
+    margin-top: $spacingXs;
+    @media (min-width: $lgScreen) {
+      margin-top: 0;
+    }
+  }
+
+  .tab-duration {
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: $paragraph;
+    color: $gray;
+    line-height: 50%;
+  }
+
+  .tab-description {
+    font-family: $roboto;
+    font-size: $paragraph;
+    color: $black;
+  }
+  transition: 0.5s ease all;
+}
+//
+//
+// Portfolio.jsx
+.portfolio {
+  padding: $spacingSm $spacingXs;
+  @media (min-width: $mdScreen) {
+    padding: $spacingSm;
+  }
+  @media (min-width: $lgScreen) {
+    padding: $spacingLg 9% 0 9%;
+  }
+
+  .portfolio-content {
+    margin-top: 32px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    box-shadow: $outerShadow;
+    border-radius: 4px;
+    margin: $spacingXs 0;
+    border: 1px solid $lightGray;
+    transition: 0.5s ease all;
+    @media (min-width: $mdScreen) {
+      width: 48%;
+    }
+    @media (min-width: $lgScreen) {
+      width: 31.5%;
+    }
+    .card-image {
+      border-radius: 4px 4px 0 0;
+      width: 100%;
+      height: auto;
+      border-bottom: solid 1px $lightGray;
+    }
+
+    .card-contents {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0 $spacingXs;
+      padding-bottom: $spacingXs;
+    }
+
+    .card-title {
+      font-family: $poppins;
+      font-size: $paragraph;
+      font-weight: 700;
+      color: $black;
+      line-height: 100%;
+      margin-bottom: 0;
+    }
+
+    .card-description {
+      font-family: $roboto;
+      font-size: $paragraph;
+      color: $black;
+    }
+
+    .tool-image {
+      margin: 0 4px;
+    }
+
+    .button-holder {
+      display: flex;
+      justify-content: center;
+      padding-top: $spacingXs;
+      text-decoration: none;
+    }
+  }
+  transition: 0.5s ease all;
+}
+//
+//
+// Form.jsx
+.form {
+  padding: $spacingSm $spacingXs;
+  @media (min-width: $mdScreen) {
+    padding: $spacingSm;
+  }
+  @media (min-width: $lgScreen) {
+    padding: $spacingLg 9% 0 9%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: $roboto;
+    font-size: $paragraph;
+    input[type="text"] {
+      font-size: $paragraph;
+      outline: none;
+      border: 1px solid $black;
+      border-radius: 2px;
+      padding: 10px 12px;
+      &:focus {
+        outline: 1px solid $black;
+      }
+    }
+  }
+  .from-input-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 24px;
+    @media (min-width: $lgScreen) {
+      flex-direction: row;
+    }
+  }
+  .from-input {
+    margin: 8px 0;
+    @media (min-width: $lgScreen) {
+      width: 100%;
+      &:first-child {
+        margin-right: 8px;
+      }
+      &:nth-child(2) {
+        margin-left: 8px;
+      }
+    }
+  }
+  .message-input {
+    font-family: $roboto;
+    font-size: $paragraph;
+    resize: none;
+    padding: 10px 12px;
+    margin: 8px 0 $spacingXs 0;
+  }
+
+  .submit-holder {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .submitButton {
+    width: 100%;
+    @media (min-width: $lgScreen) {
+      width: auto;
+    }
+  }
+  transition: 0.5s ease all;
+}
+//
+//
+// Footer.jsx
+footer {
+  background-color: $lightGray;
+  margin-top: $spacingSm;
+  padding: $spacingSm $spacingXs;
+  @media (min-width: $mdScreen) {
+    padding: $spacingSm $spacingSm;
+  }
+  @media (min-width: $lgScreen) {
+    margin-top: $spacingLg;
+    padding: $spacingSm 9%;
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: nowrap;
+
+    .socials-icon {
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .message {
+    text-align: center;
+    font-family: $roboto;
+    font-size: $paragraph;
+    margin-top: 1em;
+    .message-text {
+      margin: 0;
+      display: inline-block;
+    }
+    .message-icon {
+      display: inline-block;
+    }
+  }
+
+  transition: 0.5s ease all;
+}
