@@ -7,21 +7,23 @@ function Form() {
     <div className="form" id="form">
       <Title label="LET'S WORK TOGETHER" />
       <form
-        action="https://formsubmit.co/5736a3c2bb16e27c887662ba18913483"
+        action="https://formsubmit.co/felixjerome.delafuente@gmail.com"
         method="POST"
       >
         <div className="from-input-container">
-          <input
-            className="input from-input"
-            type="text"
-            placeholder="Your name"
-          />
+            <input
+              className="input from-input"
+              type="text"
+              placeholder="Your name"
+            />
 
-          <input
-            className="input from-input"
-            type="text"
-            placeholder="Your email is optional"
-          />
+
+            <input
+              className="input from-input"
+              type="text"
+              placeholder="Your email is optional"
+            />
+    
         </div>
 
         <textarea
