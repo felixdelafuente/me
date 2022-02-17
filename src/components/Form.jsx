@@ -11,26 +11,29 @@ function Form() {
         method="POST"
       >
         <div className="from-input-container">
-            <input
-              className="input from-input"
-              type="text"
-              placeholder="Your name"
-            />
+          <input
+            className="input from-input"
+            type="text"
+            name="name"
+            placeholder="Your name"
+            required
+          />
 
-
-            <input
-              className="input from-input"
-              type="text"
-              placeholder="Your email is optional"
-            />
-    
+          <input
+            className="input from-input"
+            type="text"
+            name="email"
+            placeholder="Your email is optional"
+          />
         </div>
 
         <textarea
           rows="6"
           className="input message-input"
           type="text"
+          name="message"
           placeholder="Your message for me"
+          required
         />
         <div className="submit-holder">
           <input
