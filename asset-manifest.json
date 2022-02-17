@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/me/static/css/main.4df7d801.css",
-    "main.js": "/me/static/js/main.c08266dd.js",
+    "main.js": "/me/static/js/main.31886c7b.js",
     "static/media/felix-dela-fuente.png": "/me/static/media/felix-dela-fuente.421a277ce90df0797e1e.png",
     "static/media/project-6.png": "/me/static/media/project-6.b4aad7fa1564bdeb2c12.png",
     "static/media/project-5.png": "/me/static/media/project-5.23ade6820ad05ba79aba.png",
@@ -35,10 +35,10 @@
     "static/media/fb-icon.svg": "/me/static/media/fb-icon.047d950644c07eee50dbe248b99f4120.svg",
     "static/media/heart-icon.svg": "/me/static/media/heart-icon.dab8c51a15ca67c87d61e0c265917e44.svg",
     "main.4df7d801.css.map": "/me/static/css/main.4df7d801.css.map",
-    "main.c08266dd.js.map": "/me/static/js/main.c08266dd.js.map"
+    "main.31886c7b.js.map": "/me/static/js/main.31886c7b.js.map"
   },
   "entrypoints": [
     "static/css/main.4df7d801.css",
-    "static/js/main.c08266dd.js"
+    "static/js/main.31886c7b.js"
   ]
 }
