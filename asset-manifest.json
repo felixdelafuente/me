@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.4df7d801.css",
-    "main.js": "/me/static/js/main.31886c7b.js",
+    "main.css": "/me/static/css/main.6133eb38.css",
+    "main.js": "/me/static/js/main.54d7d8f9.js",
     "static/media/felix-dela-fuente.png": "/me/static/media/felix-dela-fuente.421a277ce90df0797e1e.png",
     "static/media/project-6.png": "/me/static/media/project-6.b4aad7fa1564bdeb2c12.png",
     "static/media/project-5.png": "/me/static/media/project-5.23ade6820ad05ba79aba.png",
@@ -22,8 +22,8 @@
     "static/media/ux-icon.svg": "/me/static/media/ux-icon.69a00cca6721cc05b4f86deedb222c74.svg",
     "static/media/wordpress-icon.svg": "/me/static/media/wordpress-icon.568cd6fc9ced0a2d66f560ceb588e188.svg",
     "static/media/linkedin-icon.svg": "/me/static/media/linkedin-icon.4c74cfa9b0b57ad79b4a20c38eb77249.svg",
-    "static/media/bootstrap-icon.svg": "/me/static/media/bootstrap-icon.a93e6236bb4a04e398291484fc216caf.svg",
     "index.html": "/me/index.html",
+    "static/media/bootstrap-icon.svg": "/me/static/media/bootstrap-icon.a93e6236bb4a04e398291484fc216caf.svg",
     "static/media/twitter-icon.svg": "/me/static/media/twitter-icon.f03ea5aab279a379facf61f10e617710.svg",
     "static/media/js-icon.svg": "/me/static/media/js-icon.0ed1fd0e2b3570abd819f51e562f1471.svg",
     "static/media/github-icon.svg": "/me/static/media/github-icon.61b0e746a8d0d9e894a8cd54f8935878.svg",
@@ -34,11 +34,11 @@
     "static/media/figma-icon.svg": "/me/static/media/figma-icon.83b7f366ac7d9c1c2d763e0967e30c91.svg",
     "static/media/fb-icon.svg": "/me/static/media/fb-icon.047d950644c07eee50dbe248b99f4120.svg",
     "static/media/heart-icon.svg": "/me/static/media/heart-icon.dab8c51a15ca67c87d61e0c265917e44.svg",
-    "main.4df7d801.css.map": "/me/static/css/main.4df7d801.css.map",
-    "main.31886c7b.js.map": "/me/static/js/main.31886c7b.js.map"
+    "main.6133eb38.css.map": "/me/static/css/main.6133eb38.css.map",
+    "main.54d7d8f9.js.map": "/me/static/js/main.54d7d8f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4df7d801.css",
-    "static/js/main.31886c7b.js"
+    "static/css/main.6133eb38.css",
+    "static/js/main.54d7d8f9.js"
   ]
 }
