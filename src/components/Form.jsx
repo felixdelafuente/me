@@ -12,6 +12,7 @@ function Form() {
       >
         <div className="from-input-container">
           <input
+            id="name"
             className="input from-input"
             type="text"
             name="name"
@@ -28,6 +29,7 @@ function Form() {
         </div>
 
         <textarea
+          id="message"
           rows="6"
           className="input message-input"
           type="text"

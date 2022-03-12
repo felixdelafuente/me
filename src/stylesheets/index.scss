@@ -242,8 +242,10 @@ ul {
       font-weight: 500;
       font-size: $mSubHeader;
       color: $gray;
+      text-align: right;
       @media (min-width: $lgScreen) {
         font-size: $subheader;
+        text-align: left;
       }
     }
     .header-socials {

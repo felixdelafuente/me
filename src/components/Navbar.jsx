@@ -36,7 +36,7 @@ function Navbar() {
             </li>
             <li className="navListItem navButton">
               <a
-                href="https://bit.ly/felixdelafuente-resume"
+                href="https://drive.google.com/file/d/1mpiDkFTs5gF_L7q52p6d7MCjywkLUdEO/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
