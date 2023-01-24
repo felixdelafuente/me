@@ -12,7 +12,7 @@ function Header() {
         <h2 className="subHeaderText">Hi, my name is</h2>
         <Title label="FELIX DELA FUENTE" />
         <h2 className="subHeaderText">
-          I'm a Front-end Developer and Product Designer, integrating technology
+          I'm a Full Stack Developer and Product Designer, integrating technology
           and design to create human-centered outcomes.
         </h2>
         <div>

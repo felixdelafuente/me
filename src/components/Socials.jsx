@@ -10,44 +10,44 @@ function Socials() {
   return (
     <>
       <a
-        className="socials-icon"
-        target="_blank"
-        href="https://www.facebook.com/delafuentefelix"
-        rel="noreferrer"
+        className='socials-icon'
+        target='_blank'
+        href='https://www.facebook.com/delafuentefelix'
+        rel='noreferrer'
       >
-        <img src={fbIcon} alt="Facebook" />
+        <img src={fbIcon} alt='Facebook' />
       </a>
       <a
-        className="socials-icon"
-        target="_blank"
-        href="https://www.instagram.com/fj.delafuente/"
-        rel="noreferrer"
+        className='socials-icon'
+        target='_blank'
+        href='https://www.instagram.com/_delafuentefelix/'
+        rel='noreferrer'
       >
-        <img src={igIcon} alt="Instagram" />
+        <img src={igIcon} alt='Instagram' />
       </a>
       <a
-        className="socials-icon"
-        target="_blank"
-        href="https://twitter.com/fj_delafuente"
-        rel="noreferrer"
+        className='socials-icon'
+        target='_blank'
+        href='https://twitter.com/delafuentefelix'
+        rel='noreferrer'
       >
-        <img src={twtIcon} alt="Twitter" />
+        <img src={twtIcon} alt='Twitter' />
       </a>
       <a
-        className="socials-icon"
-        target="_blank"
-        href="https://github.com/felixdelafuente"
-        rel="noreferrer"
+        className='socials-icon'
+        target='_blank'
+        href='https://github.com/felixdelafuente'
+        rel='noreferrer'
       >
-        <img src={ghIcon} alt="GitHub" />
+        <img src={ghIcon} alt='GitHub' />
       </a>
       <a
-        className="socials-icon"
-        target="_blank"
-        href="https://www.linkedin.com/in/felix-delafuente/"
-        rel="noreferrer"
+        className='socials-icon'
+        target='_blank'
+        href='https://www.linkedin.com/in/felix-delafuente/'
+        rel='noreferrer'
       >
-        <img src={liIcon} alt="LinkedIn" />
+        <img src={liIcon} alt='LinkedIn' />
       </a>
     </>
   );

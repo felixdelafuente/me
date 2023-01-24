@@ -6,7 +6,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 ul {
   list-style-type: square;
@@ -19,7 +19,7 @@ ul {
   font-weight: 700;
   font-size: $mHeader;
   margin: 0;
-  line-height: 100%;
+  line-height: 120%;
   color: $black;
   @media (min-width: $lgScreen) {
     font-size: $header;
@@ -32,6 +32,7 @@ ul {
   font-family: $roboto;
   font-size: $paragraph;
   color: $black;
+  line-height: 120%;
 }
 //
 //
@@ -83,6 +84,52 @@ ul {
 }
 //
 //
+// Tooltip
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: $black;
+  color: $white;
+  font-family: roboto;
+  font-size: $button;
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  width: 80px;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -56px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: $black transparent transparent transparent;
+}
+//
+//
 // NavBar.jsx
 .navBar {
   height: 64px;
@@ -95,6 +142,7 @@ ul {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
+  z-index: 100;
 
   .navContainer {
     width: 100%; //
@@ -249,18 +297,18 @@ ul {
       }
     }
     .header-socials {
-    display: flex;
-    justify-content: flex-start;
-    gap: 1em;
-    flex-wrap: nowrap;
-    margin-bottom: $spacingXs;
+      display: flex;
+      justify-content: flex-start;
+      gap: 1em;
+      flex-wrap: nowrap;
+      margin-bottom: $spacingXs;
 
-    .socials-icon {
-      &:hover {
-        transform: scale(1.2);
+      .socials-icon {
+        &:hover {
+          transform: scale(1.2);
+        }
       }
     }
-  }
   }
 
   .imageContainer {
@@ -385,7 +433,7 @@ ul {
     font-size: $paragraph;
     font-weight: 700;
     color: $black;
-    line-height: 100%;
+    line-height: 120%;
     margin-top: $spacingXs;
     @media (min-width: $lgScreen) {
       margin-top: 0;
@@ -464,7 +512,7 @@ ul {
       font-size: $paragraph;
       font-weight: 700;
       color: $black;
-      line-height: 100%;
+      line-height: 120%;
       margin-bottom: 0;
     }
 
@@ -474,8 +522,13 @@ ul {
       color: $black;
     }
 
+    .tools-img {
+      z-index: 0;
+    }
+
     .tool-image {
       margin: 0 4px;
+      z-index: 0;
     }
 
     .button-holder {
@@ -486,6 +539,57 @@ ul {
     }
   }
   transition: 0.5s ease all;
+}
+//
+//
+// Services.jsx
+.services {
+  padding: $spacingSm $spacingXs;
+  @media (min-width: $mdScreen) {
+    padding: $spacingSm;
+  }
+  @media (min-width: $lgScreen) {
+    padding: $spacingLg 9% 0 9%;
+  }
+
+  .services-content {
+    margin-top: 32px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .service {
+    width: 100%;
+    margin: 1rem 0;
+    @media (min-width: $mdScreen) {
+      width: 50%;
+    }
+    @media (min-width: $lgScreen) {
+      width: 31.5%;
+    }
+
+    .service-icon {
+      height: auto;
+      width: 96px;
+    }
+
+    .service-title {
+      font-family: $poppins;
+      font-size: $paragraph;
+      font-weight: 700;
+      color: $black;
+      line-height: 120%;
+      margin-bottom: 0;
+    }
+
+    .service-description {
+      font-family: $roboto;
+      font-size: $paragraph;
+      color: $black;
+    }
+  }
 }
 //
 //
@@ -572,7 +676,7 @@ footer {
     margin-top: $spacingLg;
     padding: $spacingSm 9%;
   }
-  
+
   .socials {
     display: flex;
     justify-content: center;
