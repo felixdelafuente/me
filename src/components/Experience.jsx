@@ -9,18 +9,33 @@ function Experience() {
       <Title label='MY JOURNEY SO FAR' />
 
       <Tabs>
-        <div className='tab-content' label='Xtendly'>
-          <h1 className='tab-position'>Full Stack Developer</h1>
-          <h3 className='tab-duration'>April 2022 - Present</h3>
-          <ul className='tab-description'>
+        <div className='tab-content' label='PwC Acceleration Center Manila'>
+          <h1 className='tab-position'>Full Stack Developer Analyst</h1>
+          <h3 className='tab-duration'>July 2023 - Present</h3>
+          {/* <ul className='tab-description'>
             <li>
-              Develop websites and web applications for clients, fixing bugs,
-              and offering support to other projects.
+              Developed websites and web applications with complex CRUD (Create,
+              Read, Update, Delete) functionalities, addressing the unique
+              requirements of more than 9 diverse clients.
             </li>
             <li>
-              Collaborate with other developers in an Agile environment through
-              sprint meetings and coordinate with the Project Manager regarding
-              tasks and goals.
+              Created reusable codes used in more than 4 projects, increasing
+              development efficiency by up to 40%.
+            </li>
+          </ul> */}
+        </div>
+        <div className='tab-content' label='Xtendly'>
+          <h1 className='tab-position'>Full Stack Developer</h1>
+          <h3 className='tab-duration'>April 2022 - April 2023</h3>
+          <ul className='tab-description'>
+            <li>
+              Developed websites and web applications with complex CRUD (Create,
+              Read, Update, Delete) functionalities, addressing the unique
+              requirements of more than 9 diverse clients.
+            </li>
+            <li>
+              Created reusable codes used in more than 4 projects, increasing
+              development efficiency by up to 40%.
             </li>
           </ul>
         </div>

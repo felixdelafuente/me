@@ -20,7 +20,7 @@ function Socials() {
       <a
         className='socials-icon'
         target='_blank'
-        href='https://www.instagram.com/_delafuentefelix/'
+        href='https://www.instagram.com/fj.pdf/'
         rel='noreferrer'
       >
         <img src={igIcon} alt='Instagram' />

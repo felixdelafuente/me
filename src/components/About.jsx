@@ -9,8 +9,8 @@ function About() {
       <Title label='ABOUT ME' />
       <div className='about-content'>
         <Paragraph
-          label='Hi, my name is Felix Jerome P. Dela Fuente, a Full Stack Developer and 4th year IT undergrad from the Philippines 
-          integrating technology through web development and design through UI & UX to create 
+          label='Hi, my name is Felix Jerome P. Dela Fuente, a Full Stack Developer from the Philippines 
+          integrating technology through full stack development and design through UI & UX to create 
           human-centered outcomes.'
         />
         <Paragraph
@@ -22,7 +22,7 @@ function About() {
       senior high school and IT as my bachelor's degree."
         />
         <Paragraph
-          label="Today, I'm currently a Full Stack Developer in a digital services company, a former
+          label="Today, I'm currently a Full Stack Developer Analyst in one of the biggest accounting firm in the country, former Full Stack Developer in a digital services company, former
       Technology Intern at one of the biggest beverage companies in the
       Philippines, the former Lead Product Designer in an early-stage startup, the former Acting
       Technology Director at a non-profit organization, and a former Multimedia
@@ -31,10 +31,9 @@ function About() {
         />
 
         <Paragraph
-          label="My main focus these days is learning more about full-stack development (MERN) and exploring cloud computing (Azure, AWS, Google Cloud).
+          label='My main focus these days is learning more about full-stack development (MERN and MEAN) and exploring cloud computing (Azure, AWS, Google Cloud).
         I also actively participate in tech community events to learn from different professionals
-        and their experiences. Although I am currently employed, I am open for freelance services such as UI & UX design, web design, 
-        mobile app development, and web development."
+        and their experiences. Although I am currently employed, I am open for freelance services and speaking engagement activities.'
         />
       </div>
     </div>
