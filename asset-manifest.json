@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/me/static/css/main.1dd84016.css",
-    "main.js": "/me/static/js/main.65daf758.js",
+    "main.js": "/me/static/js/main.12abd305.js",
     "static/media/felix-dela-fuente.png": "/me/static/media/felix-dela-fuente.421a277ce90df0797e1e.png",
     "static/media/project-6.png": "/me/static/media/project-6.b4aad7fa1564bdeb2c12.png",
     "static/media/project-5.png": "/me/static/media/project-5.23ade6820ad05ba79aba.png",
@@ -20,11 +20,11 @@
     "static/media/instagram-icon.svg": "/me/static/media/instagram-icon.9731d27d1e074336071f13d2c3fb4c0d.svg",
     "static/media/firebase-icon.svg": "/me/static/media/firebase-icon.79bdf463d9d48a34cfcd47b0e13b3d2e.svg",
     "static/media/java-icon.svg": "/me/static/media/java-icon.b669c11dd461b3956b3343e21192fd2b.svg",
-    "static/media/nodejs-icon.svg": "/me/static/media/nodejs-icon.cf532a6cedbbd7871de7e4b1ecd217bf.svg",
+    "static/media/nodejs-icon.svg": "/me/static/media/nodejs-icon.61c7331b72b56742534a022cfcd1dbed.svg",
     "static/media/ux-icon.svg": "/me/static/media/ux-icon.239430aacaefbc5ab5f1759814d9c796.svg",
     "static/media/wordpress-icon.svg": "/me/static/media/wordpress-icon.afbd16d2eff2456318b57f728895ae00.svg",
-    "static/media/mongodb-icon.svg": "/me/static/media/mongodb-icon.293242f93a8a27bf0c1ac4b77f6840d1.svg",
-    "static/media/ui-ux-icon.svg": "/me/static/media/ui-ux-icon.fef3a0492a29e8681eeb166b6bc4057b.svg",
+    "static/media/mongodb-icon.svg": "/me/static/media/mongodb-icon.c35394e52ba843214f5087ca0d6fd9f4.svg",
+    "static/media/ui-ux-icon.svg": "/me/static/media/ui-ux-icon.05d853947ee99d9d553541729cc9485f.svg",
     "static/media/linkedin-icon.svg": "/me/static/media/linkedin-icon.b1ec712a1e847c54daa4b7523e8748d1.svg",
     "index.html": "/me/index.html",
     "static/media/bootstrap-icon.svg": "/me/static/media/bootstrap-icon.5ebd3180e8b74930edbd334a30432207.svg",
@@ -32,20 +32,20 @@
     "static/media/js-icon.svg": "/me/static/media/js-icon.eaf457e14cd81b4bdada406e50fb2ebb.svg",
     "static/media/github-icon.svg": "/me/static/media/github-icon.baa40e4caa879b3261120f5844c98e90.svg",
     "static/media/tailwind-icon.svg": "/me/static/media/tailwind-icon.c05e0a7bfabf10d7d06be5b54c7c536d.svg",
-    "static/media/expressjs-icon.svg": "/me/static/media/expressjs-icon.5551a8c3a6215de045db0247c17886d8.svg",
+    "static/media/expressjs-icon.svg": "/me/static/media/expressjs-icon.01bbe9f5b3bc0c725b85b9cb662e320d.svg",
     "static/media/css-icon.svg": "/me/static/media/css-icon.a726dbfef3ab936445a0df5f451a3544.svg",
     "static/media/html-icon.svg": "/me/static/media/html-icon.a62ac096b402b4b615836300f0270b5d.svg",
     "static/media/code-icon.svg": "/me/static/media/code-icon.62deae82ab56224ea71fb57cd2d06125.svg",
-    "static/media/web-dev-icon.svg": "/me/static/media/web-dev-icon.d97c41223fc2b700d5058889c246f3fd.svg",
+    "static/media/web-dev-icon.svg": "/me/static/media/web-dev-icon.c1f6997253615ceb7e2be8f00e0c7489.svg",
     "static/media/figma-icon.svg": "/me/static/media/figma-icon.8903915c5f2913ed1ddf2d37fbb2f550.svg",
-    "static/media/mobile-dev-icon.svg": "/me/static/media/mobile-dev-icon.b706f35789626a4dcabc9d7be5ffe09a.svg",
+    "static/media/mobile-dev-icon.svg": "/me/static/media/mobile-dev-icon.09d716338502dbac9c9859f84616957c.svg",
     "static/media/fb-icon.svg": "/me/static/media/fb-icon.6780160355e2ec06b5dc5e2d6e164c4f.svg",
     "static/media/heart-icon.svg": "/me/static/media/heart-icon.6817297872fc6fc0bec2bef528adb618.svg",
     "main.1dd84016.css.map": "/me/static/css/main.1dd84016.css.map",
-    "main.65daf758.js.map": "/me/static/js/main.65daf758.js.map"
+    "main.12abd305.js.map": "/me/static/js/main.12abd305.js.map"
   },
   "entrypoints": [
     "static/css/main.1dd84016.css",
-    "static/js/main.65daf758.js"
+    "static/js/main.12abd305.js"
   ]
 }
