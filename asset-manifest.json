@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.1dd84016.css",
-    "main.js": "/me/static/js/main.12abd305.js",
-    "static/media/felix-dela-fuente.png": "/me/static/media/felix-dela-fuente.421a277ce90df0797e1e.png",
+    "main.css": "/me/static/css/main.108b8dd2.css",
+    "main.js": "/me/static/js/main.2317c95d.js",
+    "static/media/felix-dela-fuente.png": "/me/static/media/felix-dela-fuente.cd8e6e37351c39356a31.png",
     "static/media/project-6.png": "/me/static/media/project-6.b4aad7fa1564bdeb2c12.png",
     "static/media/project-5.png": "/me/static/media/project-5.23ade6820ad05ba79aba.png",
     "static/media/project-4.png": "/me/static/media/project-4.16368c3d76cb0357ee07.png",
     "static/media/project-1.png": "/me/static/media/project-1.683464c67c502dab02dc.png",
     "static/media/project-7.png": "/me/static/media/project-7.16be25134a6624394cad.png",
     "static/media/project-8.png": "/me/static/media/project-8.529ec3f94ebf121f22ec.png",
+    "static/media/project-gpa.png": "/me/static/media/project-gpa.9ca0942e3c5bd06fc707.png",
     "static/media/project-9.png": "/me/static/media/project-9.b36ce495314c0af74356.png",
     "static/media/project-sproutit.png": "/me/static/media/project-sproutit.6e3dbd659f116aead3dc.png",
+    "static/media/project-gymbuilder.png": "/me/static/media/project-gymbuilder.f66860a8fe825ce75ed3.png",
     "static/media/project-2.png": "/me/static/media/project-2.029868c742a146689ce1.png",
+    "static/media/strapi-icon.svg": "/me/static/media/strapi-icon.399dfb954a1b9f7fb877a0183f6a37fc.svg",
     "static/media/project-3.png": "/me/static/media/project-3.22fff195a0796be3dfc9.png",
     "static/media/mysql-icon.svg": "/me/static/media/mysql-icon.0b2605226c35dc7dd78511564228616c.svg",
     "static/media/jquery-icon.svg": "/me/static/media/jquery-icon.599826063b1bc92eb29041157d25c0c6.svg",
@@ -19,6 +22,7 @@
     "static/media/php-icon.svg": "/me/static/media/php-icon.09daf74b3d2afdd4c5e1d67ffb6b5596.svg",
     "static/media/instagram-icon.svg": "/me/static/media/instagram-icon.9731d27d1e074336071f13d2c3fb4c0d.svg",
     "static/media/firebase-icon.svg": "/me/static/media/firebase-icon.79bdf463d9d48a34cfcd47b0e13b3d2e.svg",
+    "static/media/ts-icon.svg": "/me/static/media/ts-icon.6900ffa01c8da74bf9141523dae622e7.svg",
     "static/media/java-icon.svg": "/me/static/media/java-icon.b669c11dd461b3956b3343e21192fd2b.svg",
     "static/media/nodejs-icon.svg": "/me/static/media/nodejs-icon.61c7331b72b56742534a022cfcd1dbed.svg",
     "static/media/ux-icon.svg": "/me/static/media/ux-icon.239430aacaefbc5ab5f1759814d9c796.svg",
@@ -28,6 +32,7 @@
     "static/media/linkedin-icon.svg": "/me/static/media/linkedin-icon.b1ec712a1e847c54daa4b7523e8748d1.svg",
     "index.html": "/me/index.html",
     "static/media/bootstrap-icon.svg": "/me/static/media/bootstrap-icon.5ebd3180e8b74930edbd334a30432207.svg",
+    "static/media/flutter-icon.svg": "/me/static/media/flutter-icon.612d70afbd2b0dc8757681398a94b12d.svg",
     "static/media/twitter-icon.svg": "/me/static/media/twitter-icon.38013842922a7514d1adcb27a043ae1b.svg",
     "static/media/js-icon.svg": "/me/static/media/js-icon.eaf457e14cd81b4bdada406e50fb2ebb.svg",
     "static/media/github-icon.svg": "/me/static/media/github-icon.baa40e4caa879b3261120f5844c98e90.svg",
@@ -41,11 +46,11 @@
     "static/media/mobile-dev-icon.svg": "/me/static/media/mobile-dev-icon.09d716338502dbac9c9859f84616957c.svg",
     "static/media/fb-icon.svg": "/me/static/media/fb-icon.6780160355e2ec06b5dc5e2d6e164c4f.svg",
     "static/media/heart-icon.svg": "/me/static/media/heart-icon.6817297872fc6fc0bec2bef528adb618.svg",
-    "main.1dd84016.css.map": "/me/static/css/main.1dd84016.css.map",
-    "main.12abd305.js.map": "/me/static/js/main.12abd305.js.map"
+    "main.108b8dd2.css.map": "/me/static/css/main.108b8dd2.css.map",
+    "main.2317c95d.js.map": "/me/static/js/main.2317c95d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dd84016.css",
-    "static/js/main.12abd305.js"
+    "static/css/main.108b8dd2.css",
+    "static/js/main.2317c95d.js"
   ]
 }
