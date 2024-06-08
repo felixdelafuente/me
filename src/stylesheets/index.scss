@@ -290,7 +290,7 @@ ul {
       font-weight: 500;
       font-size: $mSubHeader;
       color: $gray;
-      text-align: right;
+      text-align: left;
       @media (min-width: $lgScreen) {
         font-size: $subheader;
         text-align: left;
@@ -452,6 +452,9 @@ ul {
     font-family: $roboto;
     font-size: $paragraph;
     color: $black;
+    li {
+        margin-bottom: 16px;
+      }
   }
   transition: 0.5s ease all;
 }

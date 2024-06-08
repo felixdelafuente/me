@@ -15,8 +15,8 @@ function App() {
       <Header />
       <About />
       <Experience />
-      <Portfolio />
       <Services />
+      <Portfolio />
       <Form />
       <Footer />
     </>

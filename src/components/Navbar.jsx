@@ -12,40 +12,45 @@ function Navbar() {
   };
 
   return (
-    <nav className='navBar'>
-      <div className='navBar navContainer'>
-        <a href='#home'>
-          <img src={logo} className='navLogo' alt='Felix' />
+    <nav className="navBar">
+      <div className="navBar navContainer">
+        <a href="#home">
+          <img src={logo} className="navLogo" alt="Felix" />
         </a>
         <div className={click ? "navContent contentVisible" : "navContent"}>
-          <ul className='navList'>
-            <li className='navListItem'>
-              <a href='#about' className='navLink'>
+          <ul className="navList">
+            <li className="navListItem">
+              <a href="#about" className="navLink">
                 ABOUT
               </a>
             </li>
-            <li className='navListItem'>
-              <a href='#experience' className='navLink'>
+            <li className="navListItem">
+              <a href="#experience" className="navLink">
                 EXPERIENCE
               </a>
             </li>
-            <li className='navListItem'>
-              <a href='#portfolio' className='navLink'>
+            <li className="navListItem">
+              <a href="#services" className="navLink">
+                SERVICES
+              </a>
+            </li>
+            <li className="navListItem">
+              <a href="#portfolio" className="navLink">
                 PORTFOLIO
               </a>
             </li>
-            <li className='navListItem navButton'>
+            <li className="navListItem navButton">
               <a
-                href='https://drive.google.com/file/d/1ff_GU2vVbz3OuodweHIZFGVE93dMGS9x/view?usp=sharing'
-                target='_blank'
-                rel='noreferrer'
+                href="https://drive.google.com/file/d/1G1_5SHtpYGGv1tijSjfnspl5NYLvz-no/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
               >
-                <TertiaryButton label='VIEW MY CV' />
+                <TertiaryButton label="VIEW RESUME" />
               </a>
             </li>
           </ul>
         </div>
-        <div className='toggle'>
+        <div className="toggle">
           {!click ? (
             <MdOutlineMenu onClick={clickHandler} />
           ) : (

@@ -1,3 +1,5 @@
+import projectGPA from "../assets/project-gpa.png";
+import projectGymBuilder from "../assets/project-gymbuilder.png";
 import projectSproutIt from "../assets/project-sproutit.png";
 import project1 from "../assets/project-1.png";
 import project2 from "../assets/project-2.png";
@@ -25,9 +27,32 @@ import jqueryIcon from "../assets/jquery-icon.svg";
 import nodeIcon from "../assets/nodejs-icon.svg";
 import expressIcon from "../assets/expressjs-icon.svg";
 import mongoIcon from "../assets/mongodb-icon.svg";
+import flutterIcon from "../assets/flutter-icon.svg";
+import strapiIcon from "../assets/strapi-icon.svg";
+import tsIcon from "../assets/ts-icon.svg";
 
 export const PortfolioContent = {
   contents: [
+    {
+      title: `Gym Builder App`,
+      description: `An E-commerce android application for a gym equipment store that features product browsing, adding to cart, and ordering.`,
+      img: projectGymBuilder,
+      link: `https://github.com/felixdelafuente/gymbuilderph_app`,
+      tools: [
+        {
+          icon: flutterIcon,
+          name: `Flutter`,
+        },
+        {
+          icon: phpIcon,
+          name: `PHP`,
+        },
+        {
+          icon: mysqlIcon,
+          name: `MySQL`,
+        },
+      ],
+    },
     {
       title: `Sprout It Web Management System`,
       description: `Web Management System for a mushroom farm featuring production management, analytics, and CRUD functions for records, inventory, purchases, and suppliers.`,
@@ -36,7 +61,7 @@ export const PortfolioContent = {
       tools: [
         {
           icon: reactIcon,
-          name: `React JS`,
+          name: `React`,
         },
         {
           icon: tailwindIcon,
@@ -78,7 +103,27 @@ export const PortfolioContent = {
         },
         {
           icon: reactIcon,
-          name: `React JS`,
+          name: `React`,
+        },
+      ],
+    },
+    {
+      title: `Guam Power Authority Website`,
+      description: `A marketing website for the electricity and power company of Guam that features CMS capabilities for showing dynamic content.`,
+      img: projectGPA,
+      link: `https://guampowerauthority.com/`,
+      tools: [
+        {
+          icon: reactIcon,
+          name: `React`,
+        },
+        {
+          icon: tsIcon,
+          name: `TypeScript`,
+        },
+        {
+          icon: strapiIcon,
+          name: `Strapi`,
         },
       ],
     },
