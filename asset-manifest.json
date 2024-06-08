@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.108b8dd2.css",
-    "main.js": "/me/static/js/main.2317c95d.js",
+    "main.css": "/me/static/css/main.872b6aa6.css",
+    "main.js": "/me/static/js/main.d99f17bc.js",
     "static/media/felix-dela-fuente.png": "/me/static/media/felix-dela-fuente.cd8e6e37351c39356a31.png",
     "static/media/project-6.png": "/me/static/media/project-6.b4aad7fa1564bdeb2c12.png",
     "static/media/project-5.png": "/me/static/media/project-5.23ade6820ad05ba79aba.png",
@@ -46,11 +46,11 @@
     "static/media/mobile-dev-icon.svg": "/me/static/media/mobile-dev-icon.09d716338502dbac9c9859f84616957c.svg",
     "static/media/fb-icon.svg": "/me/static/media/fb-icon.6780160355e2ec06b5dc5e2d6e164c4f.svg",
     "static/media/heart-icon.svg": "/me/static/media/heart-icon.6817297872fc6fc0bec2bef528adb618.svg",
-    "main.108b8dd2.css.map": "/me/static/css/main.108b8dd2.css.map",
-    "main.2317c95d.js.map": "/me/static/js/main.2317c95d.js.map"
+    "main.872b6aa6.css.map": "/me/static/css/main.872b6aa6.css.map",
+    "main.d99f17bc.js.map": "/me/static/js/main.d99f17bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.108b8dd2.css",
-    "static/js/main.2317c95d.js"
+    "static/css/main.872b6aa6.css",
+    "static/js/main.d99f17bc.js"
   ]
 }
