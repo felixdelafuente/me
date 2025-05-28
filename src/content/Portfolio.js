@@ -1,6 +1,8 @@
 import projectGPA from "../assets/project-gpa.png";
 import projectGymBuilder from "../assets/project-gymbuilder.png";
 import projectSproutIt from "../assets/project-sproutit.png";
+import projectSales from "../assets/project-sales.png";
+import projectAutomotive from "../assets/project-automotive.png";
 import project1 from "../assets/project-1.png";
 import project2 from "../assets/project-2.png";
 import project3 from "../assets/project-3.png";
@@ -30,9 +32,47 @@ import mongoIcon from "../assets/mongodb-icon.svg";
 import flutterIcon from "../assets/flutter-icon.svg";
 import strapiIcon from "../assets/strapi-icon.svg";
 import tsIcon from "../assets/ts-icon.svg";
+import angularIcon from "../assets/angular-icon.svg";
+import azureIcon from "../assets/azure-icon.svg";
 
 export const PortfolioContent = {
   contents: [
+    {
+      title: `Predictive Sales AI Web Application`,
+      description: `A web application that uses Azure services for data upload, processing, and AI-based predictions, providing both historical and forecasted sales data.`,
+      img: projectSales,
+      link: `https://github.com/felixdelafuente/sales-forecast`,
+      tools: [
+        {
+          icon: angularIcon,
+          name: `Angular`,
+        },
+        {
+          icon: azureIcon,
+          name: `Microsoft Azure`,
+        },
+      ],
+    },
+    {
+      title: `Automotive Business Management System`,
+      description: `A web application for an automotive business that features inventory, services, and client management, as well as Point-of-Sales and invoice generation.`,
+      img: projectAutomotive,
+      link: `https://zarahemla-client.vercel.app/`,
+      tools: [
+        {
+          icon: angularIcon,
+          name: `Angular`,
+        },
+        {
+          icon: nodeIcon,
+          name: `Node.JS`,
+        },
+        {
+          icon: mongoIcon,
+          name: `MongoDB`,
+        },
+      ],
+    },
     {
       title: `Gym Builder App`,
       description: `An E-commerce android application for a gym equipment store that features product browsing, adding to cart, and ordering.`,
@@ -187,98 +227,6 @@ export const PortfolioContent = {
       ],
     },
     {
-      title: `Space for Ingenious Landing Page`,
-      description: `Responsive landing page containing information about the 
-          event, registration, and organic SEO to increase visibility 
-          in search engine results.`,
-      img: project4,
-      link: `https://impacthub.ph/space-for-ingenious/`,
-      tools: [
-        {
-          icon: wordpressIcon,
-          name: `WordPress`,
-        },
-        {
-          icon: cssIcon,
-          name: `CSS`,
-        },
-      ],
-    },
-    {
-      title: `Impact Hackathon Education Landing Page`,
-      description: `User-friendly landing page containing details about the 
-          hackathon, registration, contact form, and organic SEO to increase visibility 
-          in search engine results.`,
-      img: project5,
-      link: `https://impacthub.ph/impact-hackathon-education/`,
-      tools: [
-        {
-          icon: wordpressIcon,
-          name: `WordPress`,
-        },
-        {
-          icon: cssIcon,
-          name: `CSS`,
-        },
-      ],
-    },
-    {
-      title: `Impact Pass Website`,
-      description: `Interactive website containing details about the 
-          coworking spaces, contact form for quotations, and organic SEO to increase visibility 
-          in search engine results.`,
-      img: project9,
-      link: `https://impacthub.ph/impact-pass-coworking-space/`,
-      tools: [
-        {
-          icon: wordpressIcon,
-          name: `WordPress`,
-        },
-        {
-          icon: cssIcon,
-          name: `CSS`,
-        },
-        {
-          icon: jqueryIcon,
-          name: `jQuery`,
-        },
-      ],
-    },
-    {
-      title: `Impact hackathon Main Landing Page`,
-      description: `Landing page containing details about the hackathon winners and
-          contact form for inquiries.`,
-      img: project6,
-      link: `https://impact2050.com/impacthackathon/`,
-      tools: [
-        {
-          icon: wordpressIcon,
-          name: `WordPress`,
-        },
-        {
-          icon: cssIcon,
-          name: `CSS`,
-        },
-      ],
-    },
-    {
-      title: `At Your Service Mobile App Front-end`,
-      description: `Skilled-jobs platform for Android course final project that uses layouts, UI widgets, UI 
-          controls, and custom list & grid views.`,
-      img: project7,
-      link: `https://github.com/felixdelafuente/at-your-service`,
-      tools: [
-        {
-          icon: figmaIcon,
-          name: `Figma`,
-        },
-        {
-          icon: javaIcon,
-          name: `Java`,
-        },
-      ],
-    },
-    {
       title: `MediGuide Mobile App UX Case Study`,
       description: `Case Study that practices the whole UX Design Process, such as Research,
           Persona Creation, Journey Mapping, Wireframing, Prototyping, and Usability Testing.`,
@@ -295,5 +243,97 @@ export const PortfolioContent = {
         },
       ],
     },
+    // {
+    //   title: `Space for Ingenious Landing Page`,
+    //   description: `Responsive landing page containing information about the 
+    //       event, registration, and organic SEO to increase visibility 
+    //       in search engine results.`,
+    //   img: project4,
+    //   link: `https://impacthub.ph/space-for-ingenious/`,
+    //   tools: [
+    //     {
+    //       icon: wordpressIcon,
+    //       name: `WordPress`,
+    //     },
+    //     {
+    //       icon: cssIcon,
+    //       name: `CSS`,
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: `Impact Hackathon Education Landing Page`,
+    //   description: `User-friendly landing page containing details about the 
+    //       hackathon, registration, contact form, and organic SEO to increase visibility 
+    //       in search engine results.`,
+    //   img: project5,
+    //   link: `https://impacthub.ph/impact-hackathon-education/`,
+    //   tools: [
+    //     {
+    //       icon: wordpressIcon,
+    //       name: `WordPress`,
+    //     },
+    //     {
+    //       icon: cssIcon,
+    //       name: `CSS`,
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: `Impact Pass Website`,
+    //   description: `Interactive website containing details about the 
+    //       coworking spaces, contact form for quotations, and organic SEO to increase visibility 
+    //       in search engine results.`,
+    //   img: project9,
+    //   link: `https://impacthub.ph/impact-pass-coworking-space/`,
+    //   tools: [
+    //     {
+    //       icon: wordpressIcon,
+    //       name: `WordPress`,
+    //     },
+    //     {
+    //       icon: cssIcon,
+    //       name: `CSS`,
+    //     },
+    //     {
+    //       icon: jqueryIcon,
+    //       name: `jQuery`,
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: `Impact hackathon Main Landing Page`,
+    //   description: `Landing page containing details about the hackathon winners and
+    //       contact form for inquiries.`,
+    //   img: project6,
+    //   link: `https://impact2050.com/impacthackathon/`,
+    //   tools: [
+    //     {
+    //       icon: wordpressIcon,
+    //       name: `WordPress`,
+    //     },
+    //     {
+    //       icon: cssIcon,
+    //       name: `CSS`,
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: `At Your Service Mobile App Front-end`,
+    //   description: `Skilled-jobs platform for Android course final project that uses layouts, UI widgets, UI 
+    //       controls, and custom list & grid views.`,
+    //   img: project7,
+    //   link: `https://github.com/felixdelafuente/at-your-service`,
+    //   tools: [
+    //     {
+    //       icon: figmaIcon,
+    //       name: `Figma`,
+    //     },
+    //     {
+    //       icon: javaIcon,
+    //       name: `Java`,
+    //     },
+    //   ],
+    // },
   ],
 };

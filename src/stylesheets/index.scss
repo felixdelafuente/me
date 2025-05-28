@@ -453,8 +453,8 @@ ul {
     font-size: $paragraph;
     color: $black;
     li {
-        margin-bottom: 16px;
-      }
+      margin-bottom: 16px;
+    }
   }
   transition: 0.5s ease all;
 }
@@ -591,6 +591,61 @@ ul {
       font-family: $roboto;
       font-size: $paragraph;
       color: $black;
+    }
+  }
+}
+//
+//
+// Certifications
+.certificates {
+  padding: $spacingSm $spacingXs;
+
+  @media (min-width: $mdScreen) {
+    padding: $spacingSm;
+  }
+
+  @media (min-width: $lgScreen) {
+    padding: $spacingLg 9% 0 9%;
+  }
+
+  .certificates-content {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; // consistent spacing between cards
+    width: 100%;
+  }
+
+  .certificate-card {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+
+    @media (min-width: $mdScreen) {
+      width: 100px;
+      height: 100px;
+    }
+
+    @media (min-width: $lgScreen) {
+      width: 200px;
+      height: 200px;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    .certificate-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 8px;
     }
   }
 }

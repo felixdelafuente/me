@@ -6,10 +6,10 @@ import WebDevIcon from "../assets/web-dev-icon.svg";
 import MobileDevIcon from "../assets/mobile-dev-icon.svg";
 import SecondaryButton from "./SecondaryButton";
 
-function Portfolio() {
+function Services() {
   return (
     <div className='services' id='services'>
-      <Title label='MY SERVICES' />
+      <Title label='WHAT I DO' />
 
       <div className='services-content'>
         <div className='service'>
@@ -32,9 +32,8 @@ function Portfolio() {
           <img className='service-icon' src={MobileDevIcon} alt='' />
           <h3 className='service-title'>Mobile Application</h3>
           <p className='service-description'>
-            I can develop applications for Android and iOS, including
-            their back-end and deployment to Google Play Store and Apple App
-            Store.
+            I can develop applications for Android and iOS, including their
+            back-end and deployment to Google Play Store and Apple App Store.
           </p>
         </div>
       </div>
@@ -42,4 +41,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Services;

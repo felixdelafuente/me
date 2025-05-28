@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio.jsx";
 import Services from "./components/Services.jsx";
 import Form from "./components/Form.jsx";
 import Footer from "./components/Footer.jsx";
+import Certifications from "./components/Certifications.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Experience />
       <Services />
       <Portfolio />
+      <Certifications />
       <Form />
       <Footer />
     </>

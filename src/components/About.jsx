@@ -9,31 +9,19 @@ function About() {
       <Title label='ABOUT ME' />
       <div className='about-content'>
         <Paragraph
-          label='Hi, my name is Felix Jerome P. Dela Fuente, a Full Stack Developer from the Philippines 
-          integrating technology through full stack development and design through UI & UX to create 
-          human-centered outcomes.'
+          label="Hi, I'm Felix Jerome P. Dela Fuente! A Full Stack Developer based in the Philippines with over four years of experience integrating technology and 
+          design to create user-centered solutions. I am passionate about building scalable, user-centric applications that address real-world challenges,
+          making technology accessible and impactful for businesses and individuals alike."
         />
         <Paragraph
-          label="I first became enthralled with development back in 2016 when I was in
-      junior high when I saw a senior creating a webpage using HTML and
-      CSS. After that, I volunteered to build a website using a
-      no-code builder for my teacher that contains learning materials for us students. 
-      That's when I decided to pursue a career in technology and take a programming specialization in my
-      senior high school and IT as my bachelor's degree."
+          label='Currently, I am a Full Stack Developer Analyst at PwC Acceleration Center Manila, where I design and develop in-house web applications 
+        that streamline workflows and enhance operational efficiency. My work focuses on bridging technical complexity with user-focused solutions, ensuring that
+        the applications I build empower the employees in the firm.'
         />
         <Paragraph
-          label="Today, I'm currently a Full Stack Developer Analyst in one of the biggest accounting firm in the country, former Full Stack Developer in a digital services company, former
-      Technology Intern at one of the biggest beverage companies in the
-      Philippines, the former Lead Product Designer in an early-stage startup, the former Acting
-      Technology Director at a non-profit organization, and a former Multimedia
-      Design (Web) Intern at a business incubation company. I have also previously worked on several projects, 
-      including web applications, marketing sites, landing pages, flutter & android applications, chatbot design, and UI & UX designs."
-        />
-
-        <Paragraph
-          label='My main focus these days is learning more about full-stack development (MERN and MEAN) and exploring cloud computing (Azure, AWS, Google Cloud).
-        I also actively participate in tech community events to learn from different professionals
-        and their experiences. Although I am currently employed, I am open for freelance services and speaking engagement activities.'
+          label="Outside of work, I am deeply involved in the tech community as a speaker and mentor. I've delivered talks on web development, Azure fundamentals, 
+        and UI/UX design at various universities and community events. I'm also one of the community leads of Angular Philippines, a tech community dedicated to empowering
+        developers at all stages of their professional journey."
         />
       </div>
     </div>

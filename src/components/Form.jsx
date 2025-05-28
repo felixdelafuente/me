@@ -4,44 +4,44 @@ import Title from "./Title.jsx";
 
 function Form() {
   return (
-    <div className="form" id="form">
+    <div className='form' id='form'>
       <Title label="LET'S WORK TOGETHER" />
       <form
-        action="https://formsubmit.co/felixjerome.delafuente@gmail.com"
-        method="POST"
+        action='https://formsubmit.co/hello.felixdelafuente@gmail.com'
+        method='POST'
       >
-        <div className="from-input-container">
+        <div className='from-input-container'>
           <input
-            id="name"
-            className="input from-input"
-            type="text"
-            name="name"
-            placeholder="Your name"
+            id='name'
+            className='input from-input'
+            type='text'
+            name='name'
+            placeholder='Your name'
             required
           />
 
           <input
-            className="input from-input"
-            type="text"
-            name="email"
-            placeholder="Your email is optional"
+            className='input from-input'
+            type='text'
+            name='email'
+            placeholder='Your email is optional'
           />
         </div>
 
         <textarea
-          id="message"
-          rows="6"
-          className="input message-input"
-          type="text"
-          name="message"
-          placeholder="Your message for me"
+          id='message'
+          rows='6'
+          className='input message-input'
+          type='text'
+          name='message'
+          placeholder='Your message for me'
           required
         />
-        <div className="submit-holder">
+        <div className='submit-holder'>
           <input
-            className="primaryButton headerButton submitButton"
-            type="submit"
-            value="SEND TO FELIX"
+            className='primaryButton headerButton submitButton'
+            type='submit'
+            value='SEND TO FELIX'
           />
         </div>
       </form>

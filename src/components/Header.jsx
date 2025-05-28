@@ -7,25 +7,25 @@ import Socials from "./Socials.jsx";
 
 function Header() {
   return (
-    <header className="header" id="home">
-      <div className="headerContainer">
-        <h2 className="subHeaderText">Hi, my name is</h2>
-        <Title label="FELIX DELA FUENTE" />
-        <h2 className="subHeaderText">
-          I'm a Full Stack Developer and Product Designer, integrating technology
-          and design to create human-centered outcomes.
+    <header className='header' id='home'>
+      <div className='headerContainer'>
+        <h2 className='subHeaderText'>Hi, my name is</h2>
+        <Title label='FELIX DELA FUENTE' />
+        <h2 className='subHeaderText'>
+          I'm a Full Stack Developer integrating technology and design to create
+          user-centered solutions.
         </h2>
         <div>
-          <div className="header-socials">
+          <div className='header-socials'>
             <Socials />
           </div>
-          <a title="felixjerome.delafuente@gmail.com" href="#form">
-            <PrimaryButton label="GET IN TOUCH" />
+          <a title='hello.felixdelafuente@gmail.com' href='#form'>
+            <PrimaryButton label='GET IN TOUCH' />
           </a>
         </div>
       </div>
-      <div className="imageContainer">
-        <img src={myImage} className="myImage" alt="Felix Dela Fuente" />
+      <div className='imageContainer'>
+        <img src={myImage} className='myImage' alt='Felix Dela Fuente' />
       </div>
     </header>
   );

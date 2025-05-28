@@ -8,7 +8,7 @@ import SecondaryButton from "./SecondaryButton";
 function Portfolio() {
   return (
     <div className='portfolio' id='portfolio'>
-      <Title label='MY PROJECTS SO FAR' />
+      <Title label='FEATURED PROJECTS' />
 
       <div className='portfolio-content'>
         {PortfolioContent.contents.map((content) => {
