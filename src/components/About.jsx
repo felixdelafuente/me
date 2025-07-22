@@ -9,7 +9,7 @@ function About() {
       <Title label='ABOUT ME' />
       <div className='about-content'>
         <Paragraph
-          label="Hi, I'm Felix Jerome P. Dela Fuente! A Full Stack Developer based in the Philippines with over four years of experience integrating technology and 
+          label="Hi, I'm Felix Jerome P. Dela Fuente! A Full Stack Developer based in the Philippines with over three years of experience integrating technology and 
           design to create user-centered solutions. I am passionate about building scalable, user-centric applications that address real-world challenges,
           making technology accessible and impactful for businesses and individuals alike."
         />
