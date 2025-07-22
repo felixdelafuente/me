@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aa1df425.css",
-    "main.js": "/static/js/main.1d5c1453.js",
+    "main.js": "/static/js/main.19394a1a.js",
     "static/media/project-automotive.png": "/static/media/project-automotive.b94d4728d6228a9a7c15.png",
     "static/media/felix-dela-fuente.png": "/static/media/felix-dela-fuente.cd8e6e37351c39356a31.png",
     "static/media/project-6.png": "/static/media/project-6.b4aad7fa1564bdeb2c12.png",
@@ -56,10 +56,10 @@
     "static/media/fb-icon.svg": "/static/media/fb-icon.6780160355e2ec06b5dc5e2d6e164c4f.svg",
     "static/media/heart-icon.svg": "/static/media/heart-icon.6817297872fc6fc0bec2bef528adb618.svg",
     "main.aa1df425.css.map": "/static/css/main.aa1df425.css.map",
-    "main.1d5c1453.js.map": "/static/js/main.1d5c1453.js.map"
+    "main.19394a1a.js.map": "/static/js/main.19394a1a.js.map"
   },
   "entrypoints": [
     "static/css/main.aa1df425.css",
-    "static/js/main.1d5c1453.js"
+    "static/js/main.19394a1a.js"
   ]
 }
