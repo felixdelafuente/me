@@ -10,26 +10,34 @@ function Experience() {
 
       <Tabs>
         <div className='tab-content' label='PwC Acceleration Center Manila'>
-          <h1 className='tab-position'>Full Stack Developer Analyst</h1>
+          <h1 className='tab-position'>
+            Full Stack Developer - Senior Associate
+          </h1>
+          <h3 className='tab-duration'>July 2025 - Present</h3>
+          <ul className='tab-description'>
+            <li>
+              Led the end-to-end technical architecture and implementation of
+              enterprise web applications, spanning UI/UX design, backend
+              services, relational database modeling, and Azure cloud
+              infrastructure, to ensure scalability, maintainability, and high
+              availability.
+            </li>
+          </ul>
+          <h1 className='tab-position'>
+            Full Stack Developer - Experienced Associate
+          </h1>
           <h3 className='tab-duration'>July 2023 - Present</h3>
           <ul className='tab-description'>
             <li>
               Architected and delivered 5+ enterprise web applications using
               Angular and .NET, collaborating with cross-functional stakeholders
               to translate complex business requirements into scalable
-              solutions—reducing manual processing time by 60%, saving 200+
-              hours monthly, and achieving a 95% user adoption rate.
+              solutions.
             </li>
             <li>
               Co-led and mentored cross-functional team of 5 developers,
-              managing project repositories, conducting code reviews,
-              facilitating sprint planning, and improving team velocity by 35%
-              through process optimization.
-            </li>
-            <li>
-              Implemented DevOps practices and CI/CD pipelines via Azure DevOps
-              that reduced deployment time by 50% and improved system
-              reliability.
+              managing project repositories, conducting code reviews, and
+              facilitating sprint planning.
             </li>
           </ul>
         </div>
