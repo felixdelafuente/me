@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "1.0.0",
-  "description": "Felix Dela Fuente - Full Stack Developer Portfolio",
+  "description": "Felix Dela Fuente - Software Engineer Portfolio",
   "homepage": "https://felixdelafuente.dev",
   "type": "module",
   "scripts": {

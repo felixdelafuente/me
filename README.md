@@ -1,6 +1,6 @@
 # Felix Dela Fuente - Portfolio Website
 
-A modern, responsive portfolio website built with React, TypeScript, and Vite. This project showcases my work as a Full Stack Developer, including projects, certifications, and professional experience.
+A modern, responsive portfolio website built with React, TypeScript, and Vite. This project showcases my work as a Software Engineer, including projects, certifications, and professional experience.
 
 ## 🚀 Tech Stack
 
