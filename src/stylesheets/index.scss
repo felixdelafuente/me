@@ -1,4 +1,4 @@
-@import "./variables.scss";
+@use "./variables.scss" as *;
 //
 //
 // General
@@ -80,6 +80,26 @@ ul {
   &:hover {
     background-color: $black;
     color: $white;
+  }
+}
+//
+//
+// TertiaryButton.jsx
+.tertiaryButton {
+  cursor: pointer;
+  background-color: $black;
+  color: $white;
+  font-family: roboto;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid $black;
+  transition: 0.5s ease all;
+  font-size: $button;
+  padding: 10px 12px;
+  width: auto;
+  &:hover {
+    background-color: $white;
+    color: $black;
   }
 }
 //

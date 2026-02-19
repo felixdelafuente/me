@@ -1,70 +1,162 @@
-# Getting Started with Create React App
+# Felix Dela Fuente - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React, TypeScript, and Vite. This project showcases my work as a Full Stack Developer, including projects, certifications, and professional experience.
 
-## Available Scripts
+## 🚀 Tech Stack
 
-In the project directory, you can run:
+- **Framework**: React 18.3.1
+- **Build Tool**: Vite 6.0.5
+- **Language**: TypeScript 5.6.2
+- **Styling**: SCSS
+- **Icons**: React Icons
+- **Deployment**: GitHub Pages
 
-### `npm start`
+## 📋 Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js 18.0.0 or higher
+- npm 9.0.0 or higher
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Installation
 
-### `npm test`
+```bash
+# Clone the repository
+git clone https://github.com/felixdelafuente/felixdelafuente.github.io.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Navigate to project directory
+cd me
 
-### `npm run build`
+# Install dependencies
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📖 Available Scripts
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Command           | Description                                       |
+| ----------------- | ------------------------------------------------- |
+| `npm run dev`     | Start development server at http://localhost:5173 |
+| `npm run build`   | Build for production to `dist/` folder            |
+| `npm run preview` | Preview production build locally                  |
+| `npm run lint`    | Run ESLint to check code quality                  |
+| `npm run deploy`  | Deploy to GitHub Pages                            |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏗️ Project Structure
 
-### `npm run eject`
+```
+me/
+├── public/                 # Static assets
+│   ├── favicon.ico
+│   ├── manifest.json
+│   └── CNAME
+├── src/
+│   ├── assets/            # Images, icons, fonts
+│   ├── components/        # React components
+│   │   ├── About.tsx
+│   │   ├── Certifications.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Form.tsx
+│   │   ├── Header.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Portfolio.tsx
+│   │   ├── Services.tsx
+│   │   ├── Socials.tsx
+│   │   ├── Tab.tsx
+│   │   ├── Tabs.tsx
+│   │   └── [button components]
+│   ├── content/          # Data/content files
+│   │   └── Portfolio.ts
+│   ├── stylesheets/      # SCSS styles
+│   │   ├── index.scss
+│   │   └── variables.scss
+│   ├── App.tsx           # Main app component
+│   ├── main.tsx          # Entry point
+│   └── vite-env.d.ts     # TypeScript declarations
+├── index.html            # HTML template
+├── vite.config.ts        # Vite configuration
+├── tsconfig.json         # TypeScript configuration
+├── eslint.config.js      # ESLint configuration
+└── package.json          # Dependencies and scripts
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎨 Design System
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Color Palette
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Color      | Hex       | Usage                 |
+| ---------- | --------- | --------------------- |
+| Black      | `#000000` | Primary text, buttons |
+| White      | `#FFFFFF` | Backgrounds           |
+| Gray       | `#808080` | Secondary text        |
+| Light Gray | `#F3F4F6` | Backgrounds           |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Typography
 
-## Learn More
+- **Headings**: Poppins (Bold)
+- **Body**: Roboto (Regular)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Configuration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Vite Configuration
 
-### Code Splitting
+The project uses Vite with React plugin. Key configurations:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Base URL**: `/` (for GitHub Pages deployment)
+- **Output Directory**: `dist/`
+- **Dev Server Port**: 5173
 
-### Analyzing the Bundle Size
+### TypeScript Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Strict mode is disabled for compatibility. The project uses:
 
-### Making a Progressive Web App
+- ES2020 target
+- DOM and DOM.Iterable libraries
+- Bundler module resolution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 Adding New Projects
 
-### Advanced Configuration
+To add a new project to the portfolio, edit `src/content/Portfolio.ts`:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```typescript
+{
+  title: 'Project Name',
+  description: 'Project description',
+  img: projectImage,
+  link: 'https://project-link.com',
+  tools: [
+    { icon: reactIcon, name: 'React' },
+    { icon: nodeIcon, name: 'Node.js' }
+  ]
+}
+```
 
-### Deployment
+## 🐛 Troubleshooting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Build Issues
 
-### `npm run build` fails to minify
+If you encounter build errors:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+# Clear node_modules and reinstall
+rm -rf node_modules package-lock.json
+npm install
+```
+
+### Deployment Issues
+
+Ensure your `package.json` has the correct homepage:
+
+```json
+{
+  "homepage": "https://felixdelafuente.dev"
+}
+```
+
+## 📄 License
+
+This project is for personal use. All rights reserved.
+
+## 👤 Contact
+
+- Email: hello.felixdelafuente@gmail.com
+- LinkedIn: [delafuentefelix](https://www.linkedin.com/in/delafuentefelix/)
+- GitHub: [felixdelafuente](https://github.com/felixdelafuente)
